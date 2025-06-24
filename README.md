@@ -53,4 +53,4 @@ Create a basic application using React and TypeScript to display a list of fruit
 
 Feel free to add any relevant features or enhancements that you think would improve the application.
 
-Note that our api's cors policy is intentional for this takehome. How you elect to get around it will be part of our evaluation.
+**Note that our api's cors policy is intentional for this takehome. How you elect to get around it will be part of our evaluation.**

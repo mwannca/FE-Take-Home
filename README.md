@@ -1,4 +1,4 @@
-# 🍎 Fruits Explorer - Take Home Test
+# 🍎 Fruits Explorer
 
 A clean, focused React TypeScript application for exploring and collecting fruits with grouping and visualization features.
 

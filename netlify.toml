@@ -1,7 +1,6 @@
 [build]
-  base = "fruits-app"
   command = "npm run build"
-  publish = "fruits-app/build"
+  publish = "build"
 
 [dev]
   command = "npm start"

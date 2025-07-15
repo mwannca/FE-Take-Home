@@ -1,0 +1,62 @@
+.fruit-list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.fruit-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.fruit-item:hover {
+  border-color: #667eea;
+  background: #f0f4ff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.fruit-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.fruit-name.clickable {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.fruit-name.clickable:hover {
+  color: #667eea;
+  text-decoration: underline;
+}
+
+.add-fruit-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 60px;
+}
+
+.add-fruit-btn:hover {
+  background: #5a6fd8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.add-fruit-btn:active {
+  transform: translateY(0);
+} 

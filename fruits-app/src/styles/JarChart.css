@@ -1,0 +1,52 @@
+.jar-chart {
+  padding: 1rem;
+}
+
+.jar-chart h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chart-tooltip {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-name {
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: #fff;
+}
+
+.tooltip-quantity {
+  margin: 0 0 0.25rem 0;
+  color: #ccc;
+}
+
+.tooltip-calories {
+  margin: 0;
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* Recharts customization */
+.recharts-pie-label-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.recharts-legend-item-text {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.recharts-legend-item {
+  margin-bottom: 0.5rem;
+} 

@@ -1,0 +1,103 @@
+.grouped-fruit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fruit-group {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.fruit-group:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.group-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  flex: 1;
+  text-align: left;
+}
+
+.group-toggle-btn:hover {
+  background: #e8e8e8;
+}
+
+.toggle-icon {
+  font-size: 0.8rem;
+  color: #666;
+  transition: transform 0.2s ease;
+}
+
+.group-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.group-count {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.add-group-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.add-group-btn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+.add-group-btn:active {
+  transform: translateY(0);
+}
+
+.group-content {
+  padding: 1rem;
+  background: white;
+}
+
+.group-content .fruit-list-view {
+  gap: 0.5rem;
+}
+
+.group-content .fruit-item {
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.group-content .fruit-item:last-child {
+  margin-bottom: 0;
+} 

@@ -1,0 +1,76 @@
+.fruit-table-view {
+  overflow-x: auto;
+}
+
+.fruit-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-table thead {
+  background: #667eea;
+  color: white;
+}
+
+.fruit-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fruit-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.9rem;
+}
+
+.fruit-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.fruit-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.fruit-table tbody tr.clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fruit-table tbody tr.clickable:hover {
+  background: #f0f4ff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.fruit-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.fruit-table td:first-child {
+  font-weight: 600;
+  color: #333;
+}
+
+.fruit-table td:nth-child(5) {
+  font-weight: 600;
+  color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .fruit-table-view {
+    font-size: 0.8rem;
+  }
+  
+  .fruit-table th,
+  .fruit-table td {
+    padding: 0.75rem 0.5rem;
+  }
+} 
